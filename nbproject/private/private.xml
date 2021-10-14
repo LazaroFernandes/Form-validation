@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/fone_web/application/models/Ldap_model.php</file>
+            <file>file:/var/www/html/fone_web/application/views/home/home_view.php</file>
+            <file>file:/var/www/html/fone_web/application/views/settings/new_ldap_view.php</file>
+            <file>file:/var/www/html/fone_web/css/style.css</file>
+            <file>file:/var/www/html/fone_web/application/config/database.php</file>
+            <file>file:/var/www/html/fone_web/application/views/template.php</file>
+            <file>file:/var/www/html/fone_web/js/app.js</file>
+            <file>file:/var/www/html/fone_web/application/controllers/Settings.php</file>
+            <file>file:/var/www/html/fone_web/application/controllers/Contacts.php</file>
+        </group>
+    </open-files>
+</project-private>

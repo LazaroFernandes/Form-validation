@@ -1,0 +1,299 @@
+    @media only screen and (max-width: 530px) {
+        /*Celular*/
+        h1 {
+            font-size: 30px !important;
+        }
+        html {
+            width: fit-content;
+        }
+        .livro {
+            margin: 50px !important;
+            display: inline !important;
+        }
+        .title {
+            padding: 50px 30px 20px 30px !important;
+            text-align: center !important;
+        }
+        .formdesign {
+            margin: auto;
+            width: 90% !important;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    .mainheader {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+        left: 0px;
+        top: 0px;
+        align-items: center;
+        background: linear-gradient(180deg, rgba(2, 87, 155, 0.72) 0%, #02579B 100%);
+        margin: 0px;
+    }
+    
+    .logocontainer {
+        flex: left;
+        width: 250px;
+        background-color: #fff;
+        border-radius: 0px 30px 30px 0px;
+        padding: 10px 20px 10px 10px;
+        height: -webkit-fill-available;
+    }
+    
+    .title {
+        margin: auto;
+        padding: 50px 0px 50px 0px;
+        text-align: center;
+    }
+    
+    #loading {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        background-color: #afecf0;
+        text-align: center;
+        display: none;
+    }
+    
+    .livro {
+        margin: 50px 50px 50px;
+        height: 200px;
+        display: flex;
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .buttondiv {
+        margin: auto;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    
+    .button {
+        font-size: 18px;
+        padding: 20px 40px 20px 40px !important;
+        display: flex;
+        color: white;
+        background: linear-gradient(180deg, rgba(2, 87, 155, 0.72) 0%, #02579B 100%);
+        box-shadow: 5px 5px 18px 0px #888888;
+        border: none;
+        border-radius: 30px;
+        transition: 0.3s;
+        flex: right;
+    }
+    
+    .button:hover {
+        background: linear-gradient(180deg, rgb(2 87 155 / 19%) 0%, #02579b78 100%);
+        color: #02579B;
+    }
+    
+    .btn-livro {
+        background: none;
+        font-size: 18px;
+        padding: 30px;
+        display: flex;
+        margin: auto;
+        color: white;
+        background: linear-gradient(180deg, rgba(2, 87, 155, 0.72) 0%, #02579B 100%);
+        box-shadow: 5px 5px 18px 0px #888888;
+        border: none;
+        border-radius: 30px;
+    }
+    
+    .filtro {
+        margin-left: 95px;
+        display: inline;
+    }
+    
+    .btn-filtro {
+        background: none;
+        font-size: 13px;
+        padding: 15px;
+        display: inline;
+        color: white;
+        background: linear-gradient(180deg, rgba(2, 87, 155, 0.72) 0%, #02579B 100%);
+        box-shadow: 5px 5px 18px 0px #888888;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    .link-livro {
+        font-size: 25px;
+        padding: 30px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .text {
+        display: flex;
+        margin: 50px auto;
+        width: 1000px
+    }
+    
+    .table {
+        margin: 20px auto;
+        width: 1400px;
+    }
+    
+    .loginadmin {
+        padding: 3px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-block: -10px;
+        transition: 0.5s background-color;
+    }
+    
+    .btnadmin {
+        margin-right: 10px;
+        font-size: 20px;
+        color: white;
+        background: none;
+        border: none;
+    }
+    
+    .btnadmin:hover {
+        background: none;
+        border: none;
+    }
+    
+    #msg_erro,
+    #msg_cpf {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        background-color: #CF3636;
+        color: #ffffff;
+        font-size: 18pt;
+        text-align: center;
+        z-index: 2;
+        display: none;
+        padding: 25px;
+        font-weight: 300;
+    }
+    
+    #msg_cad {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        background-color: #42CF36;
+        color: #ffffff;
+        font-size: 18pt;
+        text-align: center;
+        z-index: 2;
+        display: none;
+        padding: 25px;
+        font-weight: 300;
+    }
+    
+    #msg_erro i,
+    #msg_cpf i,
+    #msg_cad i {
+        font-size: 28pt;
+    }
+    
+    .form {
+        border-style: solid;
+        border-color: #a5a5a5;
+        border-radius: 10px;
+        width: 100%;
+        height: 5vh;
+        padding: 10px;
+        display: flex;
+        margin: auto;
+        transition: 0.5s background-color;
+    }
+    
+    .formdesign {
+        margin: auto;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    
+    .form:hover {
+        background-color: #f5f5f5;
+    }
+    
+    #error_cpf {
+        display: none;
+    }
+    
+    textarea {
+        height: 300px !important;
+        margin-bottom: 20px;
+    }
+    
+    .btn {
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .login {
+        line-height: 100%;
+        color: white;
+        font-size: 20px;
+        margin: 5px;
+    }
+    
+    .login:hover {
+        color: white;
+    }
+    
+    .texto {
+        padding: 20px 0px 20px 0px;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .envios {
+        font-size: 17px;
+        margin-left: 110px;
+    }
+    
+    .msg_out {
+        width: 100%;
+        text-align: center;
+        font-size: 26pt;
+        margin-top: 50px;
+    }
+    
+    .btn-link {
+        text-decoration: none;
+        margin: auto;
+        display: flow-root;
+        border: none;
+        width: 100%
+    }
+    
+    .link {
+        background-color: #f5f5f5;
+        padding: 5px;
+        display: flow-root;
+        transition: 0.5s;
+    }
+    
+    .link:hover {
+        background-color: #02579b78;
+        padding: 5px;
+        color: #fff;
+    }
